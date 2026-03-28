@@ -168,13 +168,6 @@ Mortality Risk:
 {'High' if disease==1 and final_risk==1 else 'Low' if disease==1 else 'N/A'}
 """
 
-    st.download_button(
-        label="📄 Download Report",
-        data=report,
-        file_name="liver_report.txt",
-        mime="text/plain"
-    )
-
     # ----------------------------
     # PDF REPORT
     # ----------------------------
